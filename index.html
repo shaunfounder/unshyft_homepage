@@ -2,19 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <title>www.unshyft.com</title>
   <style>
     body {
       margin: 0;
-      background: url('images/UGH_Water_Backdrop.png') no-repeat center center fixed;
+      background: url('ugh_water_backdrop.png') no-repeat center center fixed;
       background-size: cover;
       font-family: 'Segoe UI', sans-serif;
       color: #f0f0f0;
     }
 
+    img {
+      display: block; /* ensures image visibility in all cases */
+    }
+
     .top-sigil {
       position: absolute;
       width: 150px;
+      height: auto;
+      display: block;
       top: 20px;
       z-index: 10;
     }
@@ -47,6 +54,10 @@
 
     .images {
       margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
     }
 
     .images img {
@@ -77,18 +88,18 @@
       text-decoration: underline;
     }
 
-    .banner {
-      text-align: center;
-      margin: 50px auto 20px;
-    }
+  .banner {
+  text-align: center;
+}
 
-    .banner img {
-      max-width: 300px;
-    }
+.banner img {
+  max-width: 300px;
+  display: inline-block;
+}
 
     .legal {
       font-size: 0.85em;
-      color: #000; /* Set to true black */
+      color: #000;
       margin-top: 40px;
       text-align: center;
     }
@@ -100,8 +111,8 @@
 </head>
 <body>
 
-  <img class="top-sigil top-left" src="images/eNCODED_SIG_unlt.png" alt="Encoded Sigil">
-  <img class="top-sigil top-right" src="images/UGH_Sigal.png" alt="UGH Sigil">
+  <img class="top-sigil top-left" src="encoded_sig_unlt.png" alt="Encoded Sigil">
+  <img class="top-sigil top-right" src="ugh_sigal.png" alt="UGH Sigil">
 
   <div class="center-box">
     <h1>ACCESS DENIED</h1>
@@ -109,7 +120,7 @@
        The following materials are used in symbolic or legal filings:</p>
 
     <div class="images">
-      <img src="images/WATERMARK_UNSHYFT.png" alt="Oath Reflection">
+      <img src="watermark_unshyft.png" alt="Oath Reflection">
     </div>
 
     <div class="footer">
@@ -119,7 +130,7 @@
   </div>
 
   <div class="banner">
-    <img src="images/veil_banner_trust.png" alt="The Veil Banner">
+    <img src="veil_banner_trust.png" alt="The Veil Banner">
   </div>
 
   <div class="legal">
